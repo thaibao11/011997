@@ -1,0 +1,37 @@
+#container {
+    border: 0px solid;
+    margin: 30px auto;
+    padding: 15px;
+    border-radius: 10px;
+    background: #cfc4c4;
+}
+
+ul {
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+li {
+    margin: 10px;
+}
+
+.title {
+    text-align: center;
+}
+
+.img {
+    text-align: center;
+}
+
+.caption {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+.quotes {
+    text-align: center;
+}
