@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    background: url(coffee.jpg) no-repeat;
+    display: table;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.nav-bar {
+    overflow: hidden;
+    float: right;
+}
+
+.nav-bar a {
+    text-decoration: none;
+    color: rgb(55, 241, 111);
+    padding: 14px 16px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+}
+
+a:hover {
+    color: #d11f1f;
+}
+
+.title {
+    position: absolute;
+    color: #df7c7c;
+    font-family: 'Courier New', Courier, monospace;
+    top: 10%;
+    left: 50%;
+    font-size: 40px;
+}
+
+button {
+    position: absolute;
+    top: 60%;
+    left: 70%;
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.3);
+    font-size: 20px;
+    color: rgb(57, 177, 21);
+}
+
+button:hover {
+    color: indigo;
+    background-color: chartreuse;
+}
