@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    background: url(dog.jpg) no-repeat;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    display: table;
+}
+
+
+/*sidebar*/
+
+#sidebar {
+    position: absolute;
+    width: 200px;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    left: -200px;
+    transition: 2s;
+}
+
+#sidebar.active {
+    left: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li a {
+    display: block;
+    text-decoration: none;
+    padding: 50px 20px;
+    text-align: center;
+    color: rgb(240, 69, 69);
+}
+
+li a:hover {
+    color: rgb(0, 81, 255);
+}
+
+
+/*button*/
+
+.click-button span {
+    display: block;
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin-top: 4px;
+    cursor: pointer;
+}
+
+
+/*position of button */
+
+#sidebar .click-button {
+    position: absolute;
+    top: 0px;
+    left: 210px;
+}
+
+
+/*title*/
+
+.title {
+    color: #da6f6f;
+    text-align: center;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/*button-order*/
+
+button {
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.3);
+    font-size: 20px;
+    color: rgb(57, 177, 21);
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: chartreuse;
+}
